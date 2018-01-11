@@ -2,7 +2,7 @@
 ifconfig
 df -h
 free -m -t
-lsb_release -a
+lsb_release-a
 iptables -L -n -v
 lsof -i -n | egrep '\<sshd\' | grep ESTABLISHED
-last -n 10 /var/log/wtmp
+last -n 10
