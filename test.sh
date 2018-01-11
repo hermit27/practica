@@ -2,7 +2,7 @@
 ifconfig
 df -h
 free -m -t
-lsb_release -a
+cat /etc/redhat-release
 iptables -L -n -v
 lsof -i -n | egrep '\<sshd\' | grep ESTABLISHED
 last -n 
